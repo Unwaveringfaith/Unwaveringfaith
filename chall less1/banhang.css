@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 825px;
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+    border: 10px solid yellow;
+    background-image :url(autumn.jpg) ;
+    background-size: contain;
+    background-repeat: repeat-y;
+   background-attachment:fixed ;
+   
+}
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: gray;
+   
+}
+.ship
+{
+    text-transform: uppercase;
+    color: gray;
+}
+h2 .ship
+{
+    text-transform: uppercase;
+    
+}
+a:hover
+{
+    color:red;
+    text-decoration: none;
+}
+.price
+{
+    font-size: 30px;
+}
+button
+{
+    font-size: 25px;
+    padding: 15px 15px;
+    border-top: 4px solid black;
+   
+    /* position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-bottom: 0;
+    transform: translate(-50%); */
+    padding-left: 50% ;
+    
+}
+ul
+{
+   list-style-type:square ;
+  padding-left: 20px;
+}
+button:hover
+{
+   background-color:white;
+  
+}
+h2
+{
+    padding: 15px 15px;
+}
+.ship
+{
+    margin-bottom: 20px;
+}
+h3
+{
+    padding-bottom: 30px;
+}
+li
+{
+    margin-bottom: 10px;
+}
+li:last-child
+{
+    padding-bottom: 0px;
+    
+}

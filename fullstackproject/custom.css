@@ -1,0 +1,53 @@
+body {
+  margin: 0  !important;
+  padding: 0 !important; }
+
+.banner {
+  height: 800px;
+  background: url("./banner.jpg") center center no-repeat;
+  padding: 20px; }
+  .banner .about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right; }
+  .banner .about, .banner .sign-in {
+    border: 1px solid green;
+    margin-top: 20px;
+    padding: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .banner .sign-in {
+    margin-right: 60px;
+    margin-left: 25px;
+    border-radius: 20px; }
+  .banner .logo {
+    margin-top: 100px;
+    height: 60px;
+    text-align: center; }
+  .banner .content-center {
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .banner .text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: green; }
+  .banner button {
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 1px solid green;
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer; }
+  .banner .btn-start-now {
+    text-align: center; }
+  .banner .col-sm-4 {
+    text-align: center; }
+    .banner .col-sm-4 span {
+      display: block;
+      font-size: 25px;
+      margin-top: 20px; }

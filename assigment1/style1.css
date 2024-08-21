@@ -1,0 +1,196 @@
+*
+{
+    padding: 0px;
+    margin:  0px;
+    font-size: 25px;
+    background-color: azure;
+}
+
+
+body
+{
+    position: relative;
+}
+.section-title,.section-title, .education-title, .expjob-title,.activity-title,.skill-title,.certificate-title,.hobbies-title,.project-title,.contact-title
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 5px solid blue;
+}
+.information, .section, .education, .expjob
+{
+    margin: 40px;
+    
+   
+}
+
+
+li:last-child
+{
+    margin-bottom: 20px;
+}
+
+.no-dot
+{
+    list-style: none;
+}
+
+
+/*INFORMATION*/
+
+img
+{
+    width: 110px;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+.information-str
+{
+    display: inline-block;
+    width: 150px;
+    
+}
+span
+{
+   
+    margin-left: 150px;
+}
+
+/*section*/
+
+.section-content
+{
+    margin-top: 10px;
+}
+
+/*eudcation*/
+.education-content1
+{
+    position: relative;
+    margin-top: 10px;
+}
+
+.education-time
+{
+    display: inline-block;
+    position: absolute;
+   
+    width: 200px;
+    
+    
+}
+.education-stuff
+{
+    display: inline-block;
+    margin-left: 340px;
+    
+}
+
+
+/*exp job*/
+.expjob-content
+{
+    margin-top: 10px;
+}
+.expjob-time
+{
+    display: inline-block;
+    width: 200px;
+   
+}
+.expjob-stuff
+{
+    display: inline-block;
+    margin-left: 140px;
+  
+}
+
+
+/*activity*/
+
+.activity-content
+{
+    position: relative;
+    margin-top: 10px;
+}
+.activity-time
+{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    
+   
+}
+.activity-stuff
+{
+    display: inline-block;
+    margin-left: 340px;
+     
+}
+
+/*SKILL*/
+.skill-name
+{
+    display: inline-block;
+    width: 150px;
+   
+}
+.skill-level
+{
+    display: inline-block;
+    margin-left: 190px;
+     
+}
+
+
+/*certificate*/
+.certificate-time
+{
+    display: inline-block;
+    width: 150px;
+}
+.certificate-stuff
+{
+    display: inline-block;
+    margin-left: 190px;
+}
+
+
+/*project*/
+.project-pos
+{
+    font-weight: bold;
+}
+
+
+
+
+/*time line project*/
+.activity-content1, 
+.education-content1,
+.certificate-time
+{
+    position: relative;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 20px;
+}
+
+
+.activity-content1:before,
+.education-content1::before,
+.certificate-time::before
+{
+    content: "•";
+    background-color: #c00;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 6px;
+    width: 6px;
+    
+   
+}

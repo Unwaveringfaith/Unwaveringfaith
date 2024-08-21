@@ -1,0 +1,142 @@
+*{/*reset cac thuoc tinh de chinh lai cho de*/
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    background-color: white;
+}
+html:link
+{
+  color: brown;
+    /* text-decoration: none; */
+}
+body
+{
+    /* scroll-behavior: auto; */
+    position: relative;
+}
+h1
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: red;
+    padding: 20px 40px; /*top bot -- right left*/
+}
+h2
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color: brown;
+}
+h2::before/*after*//*goi 1 laop gia phai co contetn va display*/
+{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+}
+h2::first-letter/*first-line*//*edit ki tu dau tien*/
+{
+    font-size: 100px;
+}
+h3
+{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+h4
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform:uppercase ;
+    text-align: center;
+}
+p
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+article header p
+{
+    font-size: 20px;
+    font-style: italic;
+}
+article header h2 
+{
+    font-style:italic;
+}
+#author
+{
+    font-size: 18px;
+    font-style: italic;
+}
+#Copyright
+{
+    font-size: 18px;
+}
+.related #author3
+{
+    list-style: none;
+}
+li:first-child
+{
+    font-weight: bold;
+    color: blue;
+}
+li:last-child
+{
+    font-style: italic;
+    color: red;
+}
+li:nth-child(2)
+{
+    color: yellow;
+}
+
+a:visited
+{
+    color: black;
+}
+a:hover
+{
+    color:orangered;
+}
+a:active
+{
+    color: greenyellow;
+}
+li{
+    margin-bottom: 10px;
+}
+li:last-child
+{
+    margin-bottom: 0px;
+}
+.contain
+{
+    width: 700px;
+    margin: 0 auto;
+}
+nav a:link
+{
+    background-color: blue;
+    margin: 20px;
+    display: inline-block;/*doi thanh 1 khoi noi tuyen*/
+}
+button
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: aqua;
+    display: inline-block;
+    padding: 20px;
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
